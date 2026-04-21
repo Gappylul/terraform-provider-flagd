@@ -18,7 +18,7 @@ func main() {
 	flag.Parse()
 
 	opts := providerserver.ServeOpts{
-		Address: "gappylul/flagd",
+		Address: "registry.terraform.io/gappylul/flagd",
 		Debug:   debug,
 	}
 
